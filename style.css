@@ -1,0 +1,573 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+@font-face {
+    font-family: 'Libre franklin regular';
+    src: url(./fonts/LibreFranklin-Regular.ttf);
+}
+@font-face {
+    font-family: 'Libre franklin bold';
+    src: url(./fonts/LibreFranklin-Bold.ttf);
+}
+@font-face {
+    font-family: 'Source serif pro';
+    src: url(./fonts/SourceSerifPro-Regular.ttf);
+}
+@font-face {
+    font-family: 'Tenor sans';
+    src: url(./fonts/TenorSans-Regular.ttf);
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+header{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: #FFFFFF;
+    border-bottom: 2px solid aliceblue;
+    position: sticky;
+    top: 0;
+
+}
+header img{
+    margin-left: 120px;
+}
+header .a1{
+    margin-left: 900px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Libre franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #000000;
+}
+header .a2{
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Libre franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #000000;
+}
+header .a3{
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Libre franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    color: #000000;
+}
+.wrapper1{
+    width: 100%;
+    height: 593px;
+    display: flex;
+}
+.wrapper1 .box1 img{
+    margin-top: 59px;
+    margin-left: 118px;
+}
+.wrapper1 .box2{
+    display: flex;
+    flex-direction: column;
+}
+.wrapper1 .box2 .p1{
+    font-size: 10px;
+    font-family: 'Libre Franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 12px;
+    letter-spacing: 1px;
+    color: #999999;
+    margin-top: 65px;
+    margin-left: 51px;
+}
+.wrapper1 .box2 h1{
+    width: 429px;
+    height: 168px;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: 'Tenor sans';
+    font-weight: 400;
+    color: #000000;
+    font-style: normal;
+    margin-top: 18px;
+    margin-left: 51px;
+}
+.wrapper1 .box2 .p2{
+    width: 419px;
+    height: 72px;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: 'Source serif pro';
+    font-weight: 400;
+    font-style: normal;
+    color: #666666;
+    margin-top: 27px;
+    margin-left: 51px;
+}
+.wrapper1 .box2 .p3{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin bold';
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 28px;
+    margin-left: 51px;
+}
+.wrapper1 .wrapper2{
+    width: 100%;
+    height: 1004px;
+    display: flex;
+}
+.wrapper2 .box1{
+    width: 1200px;
+    height: 431px;
+    display: flex;
+    margin-left: 120px;
+    gap: 20px;
+}
+.wrapper2 .box1 .box1_box1{
+    width: 387px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper2 .box1 .p1{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    color: #999999;
+    margin-top: 24px;
+}
+.wrapper2 .box1 .p2{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Tenor sans';
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 18px;
+}
+.wrapper2 .box1 .box1_box1 .p3{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin bold';
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.wrapper2 .box2{
+    width: 1200px;
+    height: 432px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 50px;
+    gap: 20px;
+}
+.wrapper2 .box2 .box2_box1{
+    width: 387px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper2 .box2 .p1{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    color: #999999;
+    margin-top: 24px;
+}
+.wrapper2 .box2 .p2{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Tenor sans';
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 18px;
+}
+.wrapper2 .box2 .box2_box1 .p3{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin bold';
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.line{
+    width: 1200px;
+    height: 1px;
+    border: 1px solid #E6E6E6;
+    margin-top: 90px;
+    margin-left: 120px;    
+}
+.h1_tag{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    color: #999999;
+    margin-top: 90px;
+    margin-left: 120px;
+    letter-spacing: 1px;
+}
+.wrapper3 .box1{
+    width: 1200px;
+    height: 431px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 30px;
+    gap: 20px;
+}
+.wrapper3 .box1 .box1_box1{
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper3 .box1 .p1{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    color: #999999;
+    margin-top: 25px;
+}
+.wrapper3 .box1 .p2{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Tenor sans';
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 18px;
+}
+.wrapper3 .box1 .box1_box1 .p3{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin bold';
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.wrapper3 .box2{
+    width: 1200px;
+    height: 432px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 50px;
+    gap: 20px;
+}
+.wrapper3 .box2 .box2_box1{
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper3 .box2 .p1{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    color: #999999;
+    margin-top: 24px;
+}
+.wrapper3 .box2 .p2{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Tenor sans';
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 18px;
+}
+.wrapper3 .box2 .box2_box1 .p3{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin bold';
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.b1{
+    width: 205px;
+    height: 54px;
+    margin-top: 90px;
+    margin-left: 618px;
+    cursor: pointer;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 0px;
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.wrapper4 .box1{
+    width: 1200px;
+    height: 517px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 30px;
+    gap: 20px;
+}
+.wrapper4 .box1 .box1_box1{
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper4 .box1 .p1{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    color: #999999;
+    margin-top: 25px;
+}
+.wrapper4 .box1 .p2{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Tenor sans';
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 18px;
+}
+.wrapper4 .box1 .box1_box1 .p3{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin bold';
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.wrapper4 .box2{
+    width: 1200px;
+    height: 517px;
+    display: flex;
+    margin-left: 120px;
+    margin-top: 50px;
+    gap: 20px;
+}
+.wrapper4 .box2 .box2_box1{
+    width: 590px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper4 .box2 .p1{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin regular';
+    font-weight: 400;
+    font-style: normal;
+    color: #999999;
+    margin-top: 24px;
+}
+.wrapper4 .box2 .p2{
+    font-size: 20px;
+    line-height: 24px;
+    font-family: 'Tenor sans';
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 18px;
+}
+.wrapper4 .box2 .box2_box1 .p3{
+    font-size: 10px;
+    line-height: 12px;
+    font-family: 'Libre franklin bold';
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 1px;
+    margin-top: 15px;
+}
+.wrapper5{
+    width: 100%;
+    height: 617px;
+    display: flex;
+    margin-top: 90px;
+    background: #141414;
+    flex-direction: column;
+}
+.wrapper5 .box1{
+    width: 100%;
+    height: 172px;
+    display: flex;
+}
+.wrapper5 .box1 img{
+    width: 135px;
+    height: 17px;
+    margin-top: 93px;
+    margin-left: 120px;
+}
+.wrapper5 .box1 p{
+    font-family: 'Libre franklin regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 100px;
+    margin-left: 15px;
+}
+.line{
+    width: 1200px;
+    height: 1px;
+    border: 1px solid #4D4D4D;
+    margin-top: 90px;
+    margin-left: 120px;    
+}
+.wrapper5 .box2{
+    width: 100%;
+    height: 170px;
+    display: flex;
+}
+.wrapper5 .box2 .inbox1{
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+}
+.wrapper5 .box2 p{
+    font-family: 'Libre franklin regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 60px;
+    margin-left: 120px;  
+}
+.span{
+    display: flex;
+    gap: 100px;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+span{
+    display: flex;
+    flex-direction: column;
+}
+span a{
+   
+    font-family: 'Libre franklin regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 15px;
+}
+input{
+    width: 221px;
+    height: 48px;
+    padding-left: 24px;
+    font-family: 'Libre franklin regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+}
+.input_button{
+    width: 300px;
+    height: 48px;
+    margin-left: 120px;
+    margin-top: 25px;
+    gap: 0;
+}
+.b2{
+    width: 73px;
+    height: 48px;
+    background: #000000;
+    border-radius: 0px;
+    font-family: 'Libre franklin regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+}
+.wrapper5 .box3{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+.wrapper5 .box3 .inbox1{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+}
+.wrapper5 .box3 .inbox5{
+    display: flex;
+    flex-direction: column;
+    margin-left: 125px;
+}
+.wrapper5 .box3 .inbox7{
+    display: flex;
+    flex-direction: column;
+    margin-left: 140px;
+}
+.wrapper5 .box3 p{
+    font-family: 'Libre franklin regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-top: 70px;
+}
+.wrapper5 .box3 a{
+    font-family: 'Libre franklin regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-top: 15px;
+}
+.line1{
+    width: 1200px;
+    height: 1px;
+    border: 1px solid #4D4D4D;
+    margin-top: 62px;
+    margin-left: 120px;    
+}
+
+
